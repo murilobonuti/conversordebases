@@ -12,7 +12,6 @@ function para_decimal($num, $base_e){
         }
         $dec = $dec + $valor * pow($base_e, $pot);
         $pot++;
-        // essa expressão simula as operações de decimal, exemplo: 15^0 + 15^1
     }
     return $dec;
 }
